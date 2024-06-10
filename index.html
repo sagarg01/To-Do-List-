@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- dark mode buttn ---------------------- -->
+        <div class="container2">
+            <h1>Dark Mode </h1>
+            <label class="switch">
+                <input type="checkbox" id="darkModeToggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="To-do">
+            <h2>To-Do List <img src="icon.png" alt=""></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="Add Your Task">
+            <button class="btn2"  onclick="addtask()">Add</button>
+        </div>
+        <ul id="list-container">
+            <!-- <li class="checked">Task 1</li>
+            <li>Task 2</li>
+            <li>Task 3</li> -->
+        </ul>
+    
+        </div>
+
+
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
